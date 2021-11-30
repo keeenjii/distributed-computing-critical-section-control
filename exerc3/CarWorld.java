@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.util.*;
 import javax.swing.*;
@@ -17,7 +18,7 @@ class CarWorld extends JPanel {
 	controller = new TrafficController();
         MediaTracker mt = new MediaTracker(this);
 	Toolkit toolkit = Toolkit.getDefaultToolkit();
-
+        
         redCar = toolkit.getImage("image/redcar.gif");
         mt.addImage(redCar, 0);
         blueCar = toolkit.getImage("image/bluecar.gif");
