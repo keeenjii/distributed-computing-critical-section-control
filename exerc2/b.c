@@ -121,6 +121,7 @@ int main(){
     tempo_total = omp_get_wtime() - tempo_total;
 
     printf("%d células vivas\n", total);
-    printf("Tempo total de execução: %f\n", tempo_total);
-    printf("Tempo de execução apenas do laço: %f\n", tempo_laco);
+    printf("Tempo do somatório: %f\n", tempo_total - tempo_laco);
+
+    
 }
